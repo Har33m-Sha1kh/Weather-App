@@ -1,4 +1,4 @@
-*ABOUT THE PROJECT*
+*ABOUT THE PROJECT*  
 I have designed this weather app by using basic technologies.However it is user friendly as well as enchanting.
 It provides multiple weather realated data of user's choice.It gives accurate and real-time meteorological information.
 It is highly responsive. Have different user interfaces for different devices.
