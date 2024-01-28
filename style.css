@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('wallpapers/digital-art-planet-space-Earth-space-art-atmosphere-23895-wallhere.com.jpg');
+    transition: all 2s ease;
+}
+
+/* .main{
+    
+} */
+
+input{
+    background: transparent;
+    padding: 10px 30px;
+    width: 300px;
+    border-radius: 50px;
+    margin:0px  auto ;
+}
+
+input::placeholder{
+    color: white;
+}
+
+div{
+    width: 50%;
+    padding: 15px 30px;
+    background-color:rgba(38, 43, 51, 0.651);
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 3px 3px 5px 3px black;
+    transform: translateX(-103%);
+    transition: all 1s ease;
+}
+
+.cond img{
+    transform: translateY(30%);
+    padding: 0px 15px;
+}
+
+#gift{
+    position: fixed;
+    right: 50px;
+    width: 500px;
+    height: 500px;
+    display: none;
+    animation: anim 5s linear infinite;
+}
+
+#style{
+    display: none;
+    font-size: 40px;
+    position: fixed;
+    right: 200px;
+    transform: rotateZ(-20deg);
+
+}
+
+
+
+@keyframes anim {
+   from{
+    transform: rotateZ(0deg);
+   }
+   to{
+    transform: rotateZ(360deg);
+   }
+}
+
+@media screen and (max-width:320px){
+    div{
+        width: 100%;
+    }
+
+    #search{
+        width: 200px;
+    }
+}
+
+@media screen  and (min-width:800px){
+    div{
+        width: 350px;
+    }
+
+    #gift{
+        display: block;
+    }
+ 
+    #style{
+        display: block;
+    } 
+}
